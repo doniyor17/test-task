@@ -65,10 +65,10 @@ onMounted(() => {
   padding: 5px;
   transition: all ease-in-out .1s;
   cursor: pointer;
+  border-radius: 20%;
 }
 .border:hover{
   scale: 0.8;
-  border-radius: 5px;
 }
 .verticals {
   display: flex;

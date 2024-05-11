@@ -11,12 +11,7 @@ function randomize() {
   for (let i = 0; i < randomHundred; i++) {
     let newArr = [];
     for (let j = 0; j < random; j++) {
-      const num = Math.floor(Math.random() * 100);
-      if (num % 3 === 1) {
-        newArr.push('-');
-      } else {
-        newArr.push(Math.floor(Math.random() * 100));
-      }
+      newArr.push(Math.floor(Math.random() * 100));
     }
     horCols.value.push(newArr);
   }
